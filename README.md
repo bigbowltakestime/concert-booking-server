@@ -156,16 +156,20 @@ docker compose up
 
 | Document                                     | Description                                                                       |
 | -------------------------------------------- | --------------------------------------------------------------------------------- |
-| [docs/step9.md](docs/step9.md)               | Implementation details: Custom exceptions, filters, interceptors, Winston logging |
-| [docs/step10-1.md](docs/step10-1.md)         | Concurrency integration tests for QueueFacade and BalanceFacade                   |
-| [docs/step10-2.md](docs/step10-2.md)         | Chapter 2 retrospective: Learning NestJS from scratch                             |
-| [docs/step11.md](docs/step11.md)             | Concurrency analysis: DB locks vs Redis distributed locks vs Kafka                |
-| [docs/step12.md](docs/step12.md)             | RedisWaitLockManager implementation & integration tests                           |
-| [docs/step13.md](docs/step13.md)             | Redis caching strategies and performance optimization                             |
-| [docs/step14.md](docs/step14.md)             | QueueFacade integration test with 1000 concurrent users                           |
-| [docs/step15.md](docs/step15.md)             | Database indexing: 134x-144x query speed improvement                              |
-| [docs/step16.md](docs/step16.md)             | MSA architecture design: Event-driven services, Saga pattern                      |
-| [docs/step19.md](docs/step19.md)             | Load testing: k6 tests with Grafana/InfluxDB visualization                        |
-| [docs/step20.md](docs/step20.md)             | Performance analysis: Bottleneck identification and optimization strategies       |
-| [docs/how-to-start.md](docs/how-to-start.md) | Quick start guide for local development                                           |
-| [docs/README.md](docs/README.md)             | Business use case documentation (Korean)                                          |
+| [docs/step9.md](docs/step9.md)               | 구현 상세: 커스텀 예외 처리, 필터, 인터셉터, Winston 로깅 적용 |
+| [docs/step10-1.md](docs/step10-1.md)         | QueueFacade 및 BalanceFacade에 대한 동시성 통합 테스트 |
+| [docs/step10-2.md](docs/step10-2.md)         | 2주차 회고: 기초부터 시작하는 NestJS 학습 과정 |
+| [docs/step11.md](docs/step11.md)             | 동시성 제어 분석: DB 락 vs Redis 분산 락 vs Kafka 비교 |
+| [docs/step12.md](docs/step12.md)             | RedisWaitLockManager 구현 및 통합 테스트 |
+| [docs/step13.md](docs/step13.md)             | Redis 캐싱 전략 및 성능 최적화 |
+| [docs/step14.md](docs/step14.md)             | 1000명 동시 접속자 환경에서의 QueueFacade 통합 테스트 |
+| [docs/step15.md](docs/step15.md)             | 데이터베이스 인덱싱: 쿼리 속도 134배~144배 향상 결과 |
+| [docs/step16.md](docs/step16.md)             |  MSA 아키텍처 설계: 이벤트 기반 서비스 및 Saga 패턴 |
+| [docs/step19.md](docs/step19.md)             | 부하 테스트: k6를 이용한 테스트 및 Grafana/InfluxDB 시각화 |
+| [docs/step20.md](docs/step20.md)             | 성능 분석: 병목 구간 확인 및 최적화 전략 |
+| [docs/how-to-start.md](docs/how-to-start.md) | 로컬 개발 환경 구축을 위한 퀵 스타트 가이드 |
+
+
+---
+
+
